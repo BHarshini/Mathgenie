@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/recycler_item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/question1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/logo"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_margin="3dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/answer1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/logo"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_margin="3dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/correct_answer1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/logo"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_margin="3dp"
+            android:textStyle="bold"/>
+
+        <RatingBar
+            android:id="@+id/stars1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/question2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/logo"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_margin="3dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/answer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/logo"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_margin="3dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/correct_answer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/logo"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_margin="3dp"
+            android:textStyle="bold"/>
+
+        <RatingBar
+            android:id="@+id/stars2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/question3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/logo"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_margin="3dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/answer3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/logo"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_margin="3dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/correct_answer3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/logo"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_margin="3dp"
+            android:textStyle="bold"/>
+
+        <RatingBar
+            android:id="@+id/stars3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/question4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/logo"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_margin="3dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/answer4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/logo"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_margin="3dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/correct_answer4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/logo"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_margin="3dp"
+            android:textStyle="bold"/>
+
+        <RatingBar
+            android:id="@+id/stars4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/question5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/logo"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_margin="3dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/answer5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/logo"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_margin="3dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/correct_answer5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/logo"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_margin="3dp"
+            android:textStyle="bold"/>
+
+        <RatingBar
+            android:id="@+id/stars5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="3"
+/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/silver"/>
+
+    </LinearLayout>
+
+</LinearLayout>

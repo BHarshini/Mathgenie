@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MathGenie</string>
+    <string name="learn_btn_txt">Learn from youtube</string>
+    <string name="simple_line">\"Small steps lead to great achievements.\"</string>
+    <string name="my_score">My Score</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="addition">Addition</string>
+    <string name="subtraction">Subtraction</string>
+    <string name="multiplication">Multiplication</string>
+    <string name="division">Division</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="learn_from_youtube">Learn From Youtube</string>
+    <string name="next">Next</string>
+    <string name="submit">Submit</string>
+    <string name="score_card">Score Card</string>
+    <string name="review">Review</string>
+    <string name="gotohome">Back to Home</string>
+</resources>
